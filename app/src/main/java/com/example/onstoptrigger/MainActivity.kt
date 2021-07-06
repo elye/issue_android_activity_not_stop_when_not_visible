@@ -14,22 +14,22 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        Log.d("Elisha", "MainActivity: onStart")
+        Log.d("Track", "MainActivity: onStart")
     }
 
     override fun onStop() {
         super.onStop()
-        Log.d("Elisha", "MainActivity: onStop")
+        Log.d("Track", "MainActivity: onStop")
     }
 
     override fun onResume() {
         super.onResume()
-        Log.d("Elisha", "MainActivity: onResume")
+        Log.d("Track", "MainActivity: onResume")
     }
 
     override fun onPause() {
         super.onPause()
-        Log.d("Elisha", "MainActivity: onPause")
+        Log.d("Track", "MainActivity: onPause")
     }
 
     fun startNextActivity(view: View) {
